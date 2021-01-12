@@ -5,7 +5,7 @@ function rateValue(val){
 
 function calculate(){
         amount = document.getElementById('amount').value;
-        if (isNaN(amount) || amount <= 0 || amount >10 ) {
+        if (isNaN(amount) || amount <= 0 ) {
         alert("Only Positive number Between 1 to 10 years");
         document.getElementById("amount").focus();
         return;
